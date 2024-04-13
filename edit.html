@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Virtual pet home page">
+    <meta name="author" content="Kieran Reid">
+    <title>Edit Pets</title>
+    <link rel="icon" href="./pet_images/pet_favicon.png">
+    <link href="https://fonts.googleapis.com/css2?family=Short+Stack&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="slicknav.min.css">
+    <link rel="stylesheet" href="general_stylesheet.css">
+    <link rel="stylesheet" href="edit.css">
+</head>
+<body>
+<header>
+    <h1>Virtual Pet Site</h1>
+    <nav>
+        <ul class="left">
+            <li><a href="home.html">Home</a></li>
+        </ul>
+        <ul id="slicknav"></ul>
+        <ul id="menu">
+            <li><a href="create.html">Create</a></li>
+            <li id="current"><a href="edit.html">Edit</a></li>
+            <li><a href="about.html">About this site</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+    <h1>Current Active Pets:</h1>
+    <div id="petTable">
+    <table>
+        <thead>
+            <tr>
+                <th>Image</th>
+                <th>Name</th>
+                <td><button id="all">Delete all</button></td>
+            </tr>
+        </thead>
+        <tbody id="activePets"></tbody>
+    </table>
+    </div>
+
+    <div id="none">
+        <h2>No pets are currently active!</h2>
+        <p>Please head to the create page to create a pet!</p>
+        <a href="create.html"><button id="redirect">Create a pet!</button></a>
+    </div>
+    <br>
+</main>
+
+<footer>
+    <p>Copyright Kieran Reid &copy; 2024</p>
+</footer>
+
+<script src="table.js"></script>
+<script src="https://code.jquery.com/jquery-3.2.1.min.js" Integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+<script src="jquery.slicknav.min.js"></script>
+<script type="text/javascript">
+    $(document).ready(function() {
+        $('#menu').slicknav({
+            prependTo:'#slicknav',
+            label: ''
+        });
+    });
+</script>
+</body>
+</html>

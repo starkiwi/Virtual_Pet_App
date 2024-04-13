@@ -1,0 +1,114 @@
+h3 {
+    font-size: 205%;
+}
+dl {
+    margin: 2em;
+}
+dt {
+    font-size: 118%;
+    font-weight: bolder;
+    padding-top: 0.7em;
+}
+dd {
+    font-size: 117%;
+}
+.tutorial {
+    background-color: rgba(219, 171, 132, 0.10);
+    margin: auto;
+    align-self: center;
+    width: 75%;
+    border: 0.5em solid #dbab84;
+    padding: 0 1.5em 1em 1.5em;
+}
+.tutorial h2 {
+    margin-bottom: -0.5em;
+}
+img {
+    float: left;
+    width: 25%;
+    padding: 2em 2em 2em 3em;
+}
+.author h3 {
+    margin-bottom: -0.1em;
+}
+.author p {
+    font-size: 120%;
+    width: 95%;
+    text-indent: 2em;
+}
+.links {
+    margin-left: 25%;
+    text-align: center;
+    text-decoration: none;
+    font-size: 2.4em;
+    padding-bottom: 0.5em;
+}
+.links a {
+    color: #cb8051;
+    padding: 0.7em;
+}
+.links a:hover {
+    color: #734c2f;
+    font-weight: bold;
+}
+
+
+
+/* Media Queries */
+
+@media (max-width: 1256px) {
+    h3 {
+        font-size: 177%;
+        margin-block-start: 0;
+    }
+    dt {
+        font-size: 110%;
+    }
+    dd {
+        font-size: 108%;
+    }
+    .author p {
+        font-size: 112%;
+    }
+    .links {
+        font-size: 2em;
+    }
+}
+
+@media (max-width: 1087px) {
+    dl {
+        margin: 0.7em 0;
+    }
+    .author p {
+        font-size: 100%;
+    }
+    .author img {
+        padding: 1.5em 2em;
+    }
+}
+
+@media (max-width: 967px) {
+    dd {
+        font-size: 98%;
+    }
+    .author h3 {
+        font-size: 160%;
+    }
+    .author p {
+        font-size: 98%;
+    }
+    .author img {
+        padding: 2em 1.5em;
+    }
+}
+
+@media (max-width: 922px) {
+    .author img {
+        width: 30%;
+        padding: 0 1em 0.5em 1em;
+    }
+    .links {
+        margin-left: 0;
+        font-size: 1.5em;
+    }
+}

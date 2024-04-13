@@ -1,0 +1,215 @@
+body {
+    display: flex;
+    flex-basis: 100%;
+    flex-direction: column;
+    align-content: center;
+    text-align: center;
+    width: 80%;
+    margin: auto;
+}
+
+header {
+    background-color: rgba(164, 213, 199, 0.45);
+    padding: 0.8em 0.15em 0.15em;
+}
+
+header h1 {
+    font-family: "Short Stack", sans-serif;
+    font-size: 402%;
+}
+
+#slicknav {
+    display: none;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 1em;
+    background-color: rgba(135, 183, 169, 0.45);
+}
+
+nav ul {
+    align-self: flex-end;
+    list-style-type: none;
+    text-align: right;
+}
+
+nav li {
+    display: inline;
+    padding: 0 7.5em;
+}
+
+.left {
+    padding-left: 0;
+    align-self: flex-start;
+    text-align: left;
+    width: 10%;
+}
+
+nav a {
+    font-size: 137%;
+    text-decoration: none;
+    font-family: "Nunito", sans-serif;
+    color: #2c332a;
+}
+
+.left a:hover {
+    font-size: 145%;
+    font-weight: bold;
+}
+
+#menu a:hover {
+    font-size: 145%;
+    font-weight: bold;
+}
+
+#current {
+    text-decoration: underline;
+    color: rgba(44, 51, 42, 0.5);
+}
+
+#current a {
+    color: rgba(44, 51, 42, 0.5);
+}
+
+main {
+    border-right: 3em solid rgba(164, 213, 199, 0.45);
+    border-left: 3em solid rgba(164, 213, 199, 0.45);
+    background-color: rgba(164, 213, 199, 0.08);
+    font-family: "Nunito", sans-serif;
+    text-align: left;
+    padding: 0 3%;
+}
+
+h1 {
+    font-family: "Short Stack", sans-serif;
+    font-size: 262%;
+}
+
+h2 {
+    font-family: "Short Stack", sans-serif;
+    font-size: 200%;
+}
+
+footer {
+    text-align: right;
+    font-size: 1.1em;
+    background-color: rgba(164, 213, 199, 0.45);
+    padding: 2em 5em 1.5em 0.15em;
+}
+
+
+/* Media Queries */
+
+@media (max-width: 1536px) {
+    nav li {
+        padding: 0 5em;
+    }
+}
+
+@media (max-width: 1256px) {
+    header h1 {
+        font-size: 397%;
+    }
+
+    nav li {
+        padding: 0 3.2em;
+    }
+
+    nav a {
+        font-size: 130%;
+    }
+
+    footer {
+        font-size: 1em;
+        padding: 1em 3em 1.5em 0.15em;
+    }
+
+    h1 {
+        font-size: 250%;
+    }
+
+    h2 {
+        font-size: 182%;
+    }
+}
+
+@media (max-width: 1052px) {
+    header h1 {
+        font-size: 380%;
+    }
+
+    nav li {
+        padding: 0 2.3em;
+    }
+
+    nav a {
+        font-size: 125%;
+    }
+
+    h1 {
+        font-size: 241%;
+    }
+
+    h2 {
+        font-size: 176%;
+    }
+}
+
+@media (max-width: 882px) {
+    header h1 {
+        font-size: 360%;
+    }
+
+    nav li {
+        padding: 0 2em;
+    }
+
+    nav a {
+        font-size: 118%;
+    }
+
+    h1 {
+        font-size: 230%;
+    }
+
+    h2 {
+        font-size: 170%;
+    }
+}
+
+@media (max-width: 728px) {
+    header h1 {
+        font-size: 300%;
+    }
+
+    h1 {
+        font-size: 200%;
+    }
+
+    h2 {
+        font-size: 154%;
+    }
+
+    #menu {
+        display: none;
+    }
+
+    #slicknav {
+        display: block;
+        margin: 0;
+        padding-right: 1.5em;
+    }
+
+    #slicknav a:hover {
+        font-weight: bold;
+        font-size: 145%;
+    }
+}
+
+@media (max-width: 586px) {
+    header h1 {
+        font-size: 260%;
+    }
+}

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Virtual pet home page">
+    <meta name="author" content="Kieran Reid">
+    <title>Create Pet</title>
+    <link rel="icon" href="./pet_images/pet_favicon.png">
+    <link href="https://fonts.googleapis.com/css2?family=Short+Stack&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="slicknav.min.css">
+    <link rel="stylesheet" href="general_stylesheet.css">
+    <link rel="stylesheet" href="create.css">
+</head>
+<body>
+
+<header>
+    <h1>Virtual Pet Site</h1>
+    <nav>
+        <ul class="left">
+            <li><a href="home.html">Home</a></li>
+        </ul>
+        <ul id="slicknav"></ul>
+        <ul id="menu">
+            <li id="current"><a href="create.html">Create</a></li>
+            <li><a href="edit.html">Edit</a></li>
+            <li><a href="about.html">About this site</a>
+            </li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+    <h1>Create Pet:</h1>
+    <form id="create">
+        <img id='pet_image' src="./pet_images/mystery_image.png" alt="pet_image">
+        <div id="name">
+            <p><b>Name:</b></p>
+            <label for="petname"></label>
+            <input type="text" id="petname" placeholder="enter pet name" value=""><br>
+        </div>
+        <div id="image">
+            <p><b>Image:</b></p>
+            <input type="radio" id="petimage1" name="image" value="cat1" onclick="selectPet(this.value)">
+            <label for="petimage1">Cat 1</label><br>
+            <input type="radio" id="petimage2" name="image" value="cat2" onclick="selectPet(this.value)">
+            <label for="petimage2">Cat 2</label><br>
+            <input type="radio" id="petimage3" name="image" value="dog1" onclick="selectPet(this.value)">
+            <label for="petimage3">Dog 1</label><br>
+            <input type="radio" id="petimage4" name="image" value="dog2" onclick="selectPet(this.value)">
+            <label for="petimage4">Dog 2</label><br>
+        </div>
+        <br>
+        <button id="submit">Create Pet</button>
+    </form>
+    <div id="submitted">
+        <h2>Your pet has been created!</h2>
+        <p>Please return to the home page to view and interact with your new pet!</p>
+        <br>
+        <a href="home.html"><button id="return">Return to Home Page</button></a>
+    </div>
+    <br>
+    <br>
+</main>
+
+<footer>
+    <p>Copyright Kieran Reid &copy; 2024</p>
+</footer>
+
+<script src="pets.js"></script>
+<script src="selectImage.js"></script>
+<script src="https://code.jquery.com/jquery-3.2.1.min.js" Integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+<script src="jquery.slicknav.min.js"></script>
+<script type="text/javascript">
+    $(document).ready(function() {
+        $('#menu').slicknav({
+            prependTo:'#slicknav',
+            label: ''
+        });
+    });
+</script>
+</body>
+</html>

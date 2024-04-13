@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Virtual Pet Site tutorial and author credits">
+    <meta name="author" content="Kieran Reid">
+    <title>About this site</title>
+    <link rel="icon" href="./pet_images/pet_favicon.png">
+    <link href="https://fonts.googleapis.com/css2?family=Short+Stack&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="slicknav.min.css">
+    <link rel="stylesheet" href="general_stylesheet.css">
+    <link rel="stylesheet" href="about.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+</head>
+<body>
+<header>
+    <h1>Virtual Pet Site</h1>
+    <nav>
+        <ul class="left">
+            <li><a href="home.html">Home</a></li>
+        </ul>
+        <ul id="slicknav"></ul>
+        <ul id="menu">
+            <li><a href="create.html">Create</a></li>
+            <li><a href="edit.html">Edit</a></li>
+            <li id="current"><a href="about.html">About this site</a></li>
+        </ul>
+    </nav>
+</header>
+<main>
+    <h1>About this site:</h1>
+    <div class="tutorial">
+        <h2>Tutorial:</h2>
+        <dl>
+            <dt>Create a Pet!</dt>
+            <dd>Click on <i>'Create'</i> to open the creation page.</dd>
+                <dd>There you will be able to customize your pets image and name.
+                    Be sure to click <i>'Create Pet'</i> to save your pet.</dd>
+            <dt>View Pets!</dt>
+                <dd>On the <i>'Home'</i> page you can view all created pets.</dd>
+                <dd>The current amount of pets that will be visible is 4.</dd>
+            <dt>Interact with Pets!</dt>
+                <dd>Also on the <i>'Home'</i> page you can interact with your pets.</dd>
+                <dd>Click on your pet to show them some love!</dd>
+            <dt>Edit or Delete Pets!</dt>
+                <dd>Click on <i>'Edit'</i> to view a list of current active pets.</dd>
+                <dd>There you can delete any pets you have created by clicking on the red <i>'Delete'</i> button.</dd>
+            <dt>Have Fun!</dt>
+                <dd>If you have any comments or questions please contact the
+                creator using their contact info below.</dd>
+        </dl>
+    </div>
+    <br>
+    <br>
+    <div class="author">
+        <h2>Meet the Creator:</h2>
+        <img src="pet_images/kieran_photo.JPG" alt="kieran_photo">
+        <h3>Kieran Reid</h3>
+        <p>Kieran is an Interactive Media: Technology major at North Central College. Two things they have always
+            been good with are art and tech - of which video games are the perfect combination. "Virtual Pet Site" is their
+            first website/game. When they are not playing video games or D&D, they enjoy sewing
+            and reading fantasy novels. Feel free to reach out and say hi or recommend a good book!</p>
+        <div class="links">
+            <a href="mailto: kpreid03@gmail.com" target="_blank"><i class="far fa-envelope"></i></a>
+            <a href="https://www.instagram.com/k__adventuresof/" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.linkedin.com/in/kieran-reid-b23969258/" target="_blank"><i class="fab fa-linkedin"></i></a>
+            <a href="https://github.com/starkiwi" target="_blank"><i class="fab fa-github"></i></a>
+        </div>
+    </div>
+    <br>
+</main>
+<footer>
+    <p>Copyright Kieran Reid &copy; 2024</p>
+</footer>
+<script src="https://code.jquery.com/jquery-3.2.1.min.js" Integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+<script src="jquery.slicknav.min.js"></script>
+<script type="text/javascript">
+    $(document).ready(function() {
+        $('#menu').slicknav({
+            prependTo:'#slicknav',
+            label: ''
+        });
+    });
+</script>
+</body>
+</html>

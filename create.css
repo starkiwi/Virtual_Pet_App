@@ -1,0 +1,103 @@
+#create {
+    background-color: rgba(219, 171, 132, 0.10);
+    margin: auto;
+    align-self: center;
+    width: 70%;
+    border: 0.5em solid #dbab84;
+    padding: 1.5em;
+}
+
+#create p {
+    font-size: 137%;
+    margin-bottom: 0.4em;
+}
+
+#petimage1, #petimage2, #petimage3, #petimage4 {
+    margin-left: 1.5em;
+}
+
+#petname {
+    margin-left: 2.1em;
+}
+
+#create img {
+    float: left;
+    padding: 1.5em;
+    width: 25%;
+    border: 0.25em solid #dbab84;
+    margin: 0 2.2em 2.2em 0;
+}
+
+#create button {
+    display: flex;
+    align-self: center;
+}
+
+#submitted {
+    display: none;
+    margin: auto;
+    align-self: center;
+    text-align: center;
+    background-color: rgba(219, 171, 132, 0.10);
+    width: 70%;
+    border: 0.5em solid #dbab84;
+    padding: 1.5em;
+}
+
+#submitted p {
+    font-size: 137%;
+    margin-bottom: 0.4em;
+}
+
+button {
+    text-align: center;
+    align-self: center;
+    margin: auto;
+    font-family: "Nunito", sans-serif;
+    font-weight: bold;
+    font-size: 93%;
+    border-radius: 0.25em;
+    border: 0.1em solid grey;
+}
+
+
+/* Media Queries */
+
+@media (max-width: 1256px) {
+    #submitted p {
+        font-size: 112%;
+    }
+
+    button {
+        font-size: 89%;
+    }
+}
+
+@media (max-width: 1052px) {
+    #submitted p {
+        font-size: 108%;
+    }
+
+    button {
+        font-size: 86%;
+    }
+}
+
+@media (max-width: 1034px) {
+    #submitted p {
+        font-size: 100%;
+    }
+    #create p {
+        font-size: 115%;
+    }
+    #create label {
+        font-size: 100%;
+    }
+}
+
+@media (max-width: 868px) {
+    #create img {
+        float: none;
+        margin-bottom: 0;
+    }
+}
