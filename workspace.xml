@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="ANALYZE_INJECTED_CODE" value="false" />
+    <option name="SCOPE_TYPE" value="3" />
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="ce81aa98-3542-4493-b551-aba3d14456fe" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="HTML File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="DEPENDENCY_CHECKER_PROBLEMS_TAB" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
+  <component name="ProjectId" id="2cdzl5svw4bxLWlt3gmwSXRSdpi" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;Node.js.js_tutorial.js.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/kprei/OneDrive/Documents/Virtual_Pet_App&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\kprei\OneDrive\Documents\Virtual_Pet_App" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="js_tutorial.js" type="NodeJSConfigurationType" nameIsGenerated="true" path-to-js-file="js_tutorial.js" working-dir="$PROJECT_DIR$/Canvas">
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-1d06a55b98c1-74d2a5396914-JavaScript-PS-241.14494.237" />
+        <option value="bundled-php-predefined-ba97393d7c68-8f0632a2a215-com.jetbrains.php.sharedIndexes-PS-241.14494.237" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ce81aa98-3542-4493-b551-aba3d14456fe" name="Changes" comment="" />
+      <created>1708456391487</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1708456391487</updated>
+      <workItem from="1708456392540" duration="6533000" />
+      <workItem from="1708552898376" duration="5176000" />
+      <workItem from="1708559419067" duration="9000" />
+      <workItem from="1708559921418" duration="1789000" />
+      <workItem from="1708620080991" duration="9986000" />
+      <workItem from="1708967701365" duration="13000" />
+      <workItem from="1708985248835" duration="1146000" />
+      <workItem from="1709077970138" duration="51000" />
+      <workItem from="1709157552433" duration="1686000" />
+      <workItem from="1709330615390" duration="3954000" />
+      <workItem from="1709565414533" duration="2028000" />
+      <workItem from="1709681306020" duration="4130000" />
+      <workItem from="1709932249952" duration="29000" />
+      <workItem from="1710194050763" duration="3537000" />
+      <workItem from="1710254958264" duration="587000" />
+      <workItem from="1710536116947" duration="3798000" />
+      <workItem from="1710778447406" duration="251000" />
+      <workItem from="1710797397074" duration="5318000" />
+      <workItem from="1710946380948" duration="9591000" />
+      <workItem from="1710968296049" duration="2309000" />
+      <workItem from="1711400704579" duration="4322000" />
+      <workItem from="1711414411689" duration="3543000" />
+      <workItem from="1711573126760" duration="5927000" />
+      <workItem from="1711748148075" duration="12000" />
+      <workItem from="1711754452115" duration="2342000" />
+      <workItem from="1711896523517" duration="11000" />
+      <workItem from="1711982994639" duration="11500000" />
+      <workItem from="1712077491944" duration="4281000" />
+      <workItem from="1712090457964" duration="1680000" />
+      <workItem from="1712157531913" duration="11030000" />
+      <workItem from="1712253231722" duration="729000" />
+      <workItem from="1712273092408" duration="5697000" />
+      <workItem from="1712445968124" duration="6126000" />
+      <workItem from="1712613507890" duration="7160000" />
+      <workItem from="1712674109763" duration="6000" />
+      <workItem from="1712682179734" duration="899000" />
+      <workItem from="1712706280593" duration="370000" />
+      <workItem from="1712783184734" duration="64000" />
+      <workItem from="1712786844882" duration="1664000" />
+      <workItem from="1713032078300" duration="3659000" />
+      <workItem from="1713388093226" duration="8000" />
+      <workItem from="1713390065181" duration="1904000" />
+      <workItem from="1713392332284" duration="54000" />
+      <workItem from="1713472804521" duration="10000" />
+      <workItem from="1713819977053" duration="3788000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
