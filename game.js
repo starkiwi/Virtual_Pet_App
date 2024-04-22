@@ -29,19 +29,19 @@ class canvasImage {
 
 // Load images and assign to variables
 const background = new Image;
-background.src = '../pet_images/pet_game_background.png';
+background.src = './pet_images/pet_game_background.png';
 
 const cat1 = new Image;
-cat1.src = '../pet_images/cat1_image.png';
+cat1.src = './pet_images/cat1_image.png';
 
 const cat2 = new Image;
-cat2.src = '../pet_images/cat2_image.png';
+cat2.src = './pet_images/cat2_image.png';
 
 const dog1 = new Image;
-dog1.src = '../pet_images/dog1_image.png';
+dog1.src = './pet_images/dog1_image.png';
 
 const dog2 = new Image;
-dog2.src = '../pet_images/dog2_image.png';
+dog2.src = './pet_images/dog2_image.png';
 
 const heart = new Image;
 heart.src = './pet_images/heart_image.png';
