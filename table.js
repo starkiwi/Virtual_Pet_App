@@ -34,16 +34,16 @@ function loadTable(pets) {
         let pic = document.createElement('img');
         pic.style.width = "100%";
         if (pet.image === 'cat1')
-            pic.src = '../pet_images/cat1_image.png';
+            pic.src = './pet_images/cat1_image.png';
 
         else if (pet.image === 'cat2')
-            pic.src = '../pet_images/cat2_image.png';
+            pic.src = './pet_images/cat2_image.png';
 
         else if (pet.image === 'dog1')
-            pic.src = '../pet_images/dog1_image.png';
+            pic.src = './pet_images/dog1_image.png';
 
         else if (pet.image === 'dog2')
-            pic.src = '../pet_images/dog2_image.png';
+            pic.src = './pet_images/dog2_image.png';
         image.appendChild(pic);
 
         let name = row.insertCell(1);
