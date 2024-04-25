@@ -126,7 +126,7 @@ function drawBackground(scalefactor) {
 // Draw pets based on localstorage
 function drawPets(scalefactor) {
     let pets = JSON.parse(localStorage.getItem("LocalPets"));
-    if (pets != null) {
+    if (pets !=== null) {
         for (let pet = 0; pet < pets.length; pet++) {
             let petImage = pets[pet].image;
     
