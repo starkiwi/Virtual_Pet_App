@@ -126,20 +126,22 @@ function drawBackground(scalefactor) {
 // Draw pets based on localstorage
 function drawPets(scalefactor) {
     let pets = JSON.parse(localStorage.getItem("LocalPets"));
-    for (let pet = 0; pet < pets.length; pet++) {
-        let petImage = pets[pet].image;
-
-        if (petImage === 'cat1')
-            drawCat1(scalefactor);
-
-        else if (petImage === 'cat2')
-            drawCat2(scalefactor);
-
-        else if (petImage === 'dog1')
-            drawDog1(scalefactor);
-
-        else if (petImage === 'dog2')
-            drawDog2(scalefactor);
+    if (pets != null) {
+        for (let pet = 0; pet < pets.length; pet++) {
+            let petImage = pets[pet].image;
+    
+            if (petImage === 'cat1')
+                drawCat1(scalefactor);
+    
+            else if (petImage === 'cat2')
+                drawCat2(scalefactor);
+    
+            else if (petImage === 'dog1')
+                drawDog1(scalefactor);
+    
+            else if (petImage === 'dog2')
+                drawDog2(scalefactor);
+        }
     }
 }
 
