@@ -17,7 +17,7 @@ delAll.addEventListener('click', function () {
 // Function to load table with data from pets array
 function loadTable(pets) {
     // Don't load table if no pets
-    if (pets === null || pets.length === 0) {
+    if (!pets?.length) {
         document.getElementById("petTable").style.display = 'none';
         document.getElementById("none").style.display = 'block';
     }
