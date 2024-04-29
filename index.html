@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Virtual pet home page">
+    <meta name="author" content="Kieran Reid">
+    <title>Home</title>
+    <link rel="icon" href="./pet_images/pet_favicon.png">
+    <link href="https://fonts.googleapis.com/css2?family=Short+Stack&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="slicknav.min.css">
+    <link rel="stylesheet" href="general_stylesheet.css">
+    <link rel="stylesheet" href="home.css">
+</head>
+
+<body>
+<header>
+    <h1>Virtual Pet Site</h1>
+    <nav>
+        <ul class="left">
+            <li id="current"><a href="home.html">Home</a></li>
+        </ul>
+        <ul id="slicknav"></ul>
+        <ul id="menu">
+            <li><a href="create.html">Create</a></li>
+            <li><a href="edit.html">Edit</a></li>
+            <li><a href="about.html">About this site</a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main>
+    <canvas id="game"></canvas>
+</main>
+<footer>
+    <p>Copyright Kieran Reid &copy; 2024</p>
+</footer>
+</body>
+<script src="game.js"></script>
+<script src="https://code.jquery.com/jquery-3.2.1.min.js"
+        Integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+<script src="jquery.slicknav.min.js"></script>
+<script type="text/javascript">
+    $(document).ready(function () {
+        $('#menu').slicknav({
+            prependTo: '#slicknav',
+            label: ''
+        });
+    });
+</script>
+</html>
